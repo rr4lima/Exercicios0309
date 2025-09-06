@@ -56,4 +56,11 @@ public class Pedidos {
             System.out.println("Produto: " + p.getNome() + " | Quantidade: " + p.getQuantidade());
         }
     }
+
+    @Override
+    public String toString() {
+        return "Pedidos{" + "produtosPedidos=" + produtosPedidos + ", scanner=" + scanner + ", fornecedor=" + fornecedor + '}';
+    }
+    
+    
 }

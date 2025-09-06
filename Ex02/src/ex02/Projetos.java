@@ -84,6 +84,11 @@ public class Projetos {
         this.projetosFeitos = projetosFeitos;
     }
 
+    @Override
+    public String toString() {
+        return "Projetos{" + "nomeProj=" + nomeProj + ", adcProj=" + adcProj + ", scanner=" + scanner + ", projetosFeitos=" + projetosFeitos + '}';
+    }
+
 
     
     

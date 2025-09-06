@@ -30,7 +30,7 @@ public class Funcionarios {
                 System.out.println("Digite o nome do funcionário: ");
                 String nomeProj = scanner.nextLine();
 
-                System.out.println("Funcionário adicionado com sucesso.");
+               System.out.println("Funcionário adicionado com sucesso.");
                funcionarios.add(nomeProj);
 
             } else if (resposta.equals("2")) {
@@ -81,5 +81,12 @@ public class Funcionarios {
     public void setExibirProj(String exibirProj) {
         this.exibirProj = exibirProj;
     }
+
+    @Override
+    public String toString() {
+        return "Funcionarios{" + "nomeFunc=" + nomeFunc + ", projetos=" + projetos + ", exibirProj=" + exibirProj + ", funcionarios=" + funcionarios + ", scanner=" + scanner + '}';
+    }
+    
+    
 
 }

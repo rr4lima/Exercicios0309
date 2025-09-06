@@ -61,4 +61,11 @@ public class Fornecedores {
             System.out.println("Produto: " + p.getNome() + " | Quantidade: " + p.getQuantidade());
         }
     }
+
+    @Override
+    public String toString() {
+        return "Fornecedores{" + "nome=" + nome + ", prodDisponiveis=" + prodDisponiveis + ", scanner=" + scanner + '}';
+    }
+    
+    
 }

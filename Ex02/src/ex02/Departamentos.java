@@ -93,4 +93,11 @@ public class Departamentos {
         this.mediaSalario = mediaSalario;
     }
 
+    @Override
+    public String toString() {
+        return "Departamentos{" + "nome=" + nome + ", mediaSalario=" + mediaSalario + ", scanner=" + scanner + ", depart=" + depart + '}';
+    }
+    
+    
+
 }
